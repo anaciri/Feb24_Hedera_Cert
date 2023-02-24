@@ -1,0 +1,66 @@
+* Setup Task Output 
+--------------------
+ACCOUNT_ID1 = 0.0.3563098
+ACCOUNT1_PRIVATE_KEY = 302e020100300506032b657004220420c155a519334429b675f16fe26b6620af79ca57818a00b9458184a42b5be9d2af
+ACCOUNT1_PUBLIC_KEY = 302e020100300506032b657004220420c155a519334429b675f16fe26b6620af79ca57818a00b9458184a42b5be9d2af
+
+ACCOUNT_ID2 = 0.0.3563099
+ACCOUNT2_PRIVATE_KEY = 302e020100300506032b65700422042028c0c16c83115bd62077b2921de33c3c49e0dc16061a9abc789300db8105e4b5
+ACCOUNT2_PUBLIC_KEY = 302e020100300506032b65700422042028c0c16c83115bd62077b2921de33c3c49e0dc16061a9abc789300db8105e4b5
+
+ACCOUNT_ID3 = 0.0.3563102
+ACCOUNT3_PRIVATE_KEY = 302e020100300506032b657004220420f6d0601500e9392e9e6be0ea93c1dbf7fcd96bbab60ddc7640ea13e9a23ab818
+ACCOUNT3_PUBLIC_KEY = 302e020100300506032b657004220420f6d0601500e9392e9e6be0ea93c1dbf7fcd96bbab60ddc7640ea13e9a23ab818
+
+ACCOUNT_ID4 = 0.0.3563104
+ACCOUNT4_PRIVATE_KEY = 302e020100300506032b657004220420f4c903036ffee7b1573b24911773c321676d84ea8ed03201082fc5d8a6092aaf
+ACCOUNT4_PUBLIC_KEY = 302e020100300506032b657004220420f4c903036ffee7b1573b24911773c321676d84ea8ed03201082fc5d8a6092aaf
+
+ACCOUNT_ID5 = 0.0.3563105
+ACCOUNT5_PRIVATE_KEY = 302e020100300506032b65700422042093d956ad9073097b7f496afbd7d370fe519f3e86c8417ab2718956c4961f2b93
+ACCOUNT5_PUBLIC_KEY = 302e020100300506032b65700422042093d956ad9073097b7f496afbd7d370fe519f3e86c8417ab2718956c4961f2b93
+
+
+* Token Service Task Output
+----------------------------
+The new token ID is 0.0.3563843
+The total supply of the Ayoub Token0.05071325602908594 token is 35050 of AYB0.1983615711042539
+The balance of the user is: 35050
+
+* Token Transfer
+----------------------------
+The transaction consensus status to Account3SUCCESS
+The transaction consensus status to Account4SUCCESS
+
+* Token Pause
+------------------------------
+ - Token pause: SUCCESS
+ Fungible CTT transfer unsuccessful: Token 0.0.3563843 is paused (true)
+
+ - Token unpause: SUCCESS
+ -transfer Account1->Account3 status: SUCCESS
+
+
+* Schedule Transaction Task
+---------------------------
+Base64 endoded trx: CoYBKoMBCn8KGgoLCMmO458GEJXF2zkSCQgAEAAY2rzZARgAEgYIABAAGAMYgMq17gEiAgh4MgDSAkwKNQiAwtcvEgBKLAoqChMKCQgAEAAY2rzZARD/p9a5BxgAChMKCQgAEAAY27zZARCAqNa5BxgAEhNGZWJyIFNjaGVkdWxlZCBUeCEhEgA=
+
+
+
+* Smart Contract Task
+-----------------------
+The smart contract byte code file ID is 0.0.3566992
+certTasks/smartContractDeploy.js:34
+The smart contract ID is 0.0.3566993
+
+
+Decoded ABI output function1: 12   <---- extra credit task
+The transaction status is SUCCESS
+
+Decoded ABI output function2: 14   <-----
+
+* Consensus Task
+----------------
+Your topic ID is: 0.0.3567194
+certTasks/ConsensusServiceTask.js:27
+The message transaction status: SUCCESS
